@@ -13,7 +13,7 @@ for i in range(10):
     password=""
     for i in range(5):
         i=chr(random.randint(65, 90)).lower()
-        password=str(password)+ i + i
+        password=str(password)+ i + i +i
         print(password)
 
 
